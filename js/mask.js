@@ -1,6 +1,6 @@
 const mask = (selector) => {
     function setMask() {
-        let matrix = '+###############';
+        let matrix = '+################';
 
         maskList.forEach(item => {
             let code = item.code.replace(/[\s#]/g, ''),
